@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>50 Razones</title>
+  <style>
+    body {
+      background-color: #000;
+      color: white;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      color: #c9211e;
+      font-size: 2em;
+    }
+    button {
+      background-color: #c9211e;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 1em;
+      transition: 0.3s;
+    }
+    button:hover {
+      background-color: #a21817;
+    }
+    ol {
+      display: none;
+      margin-top: 30px;
+      text-align: left;
+      max-width: 600px;
+      font-size: 1.1em;
+      line-height: 1.6em;
+    }
+  </style>
+</head>
+<body>
+  <h1>Apretá acá abajo porque sino no se reproduce ❤️</h1>
+  <button onclick="mostrarLista()">Clic aqui!</button>
+  
+  <audio id="musica" src="music.mp3"></audio>
+
+  <ol id="razones">
+    <li>Porque me hacés reír hasta cuando no tengo ganas.</li>
+    <li>Porque sos dulce, pero con carácter, y eso me encanta.</li>
+    <li>Porque tus ojos tiene un poder que no puedo explicar.</li>
+    <li>Porque me encanta cómo te apasionás por lo que hacés.</li>
+    <li>Porque sos fuerte, aunque a veces no lo veas.</li>
+    <li>Porque tu presencia me calma, incluso sin tocarme.</li>
+    <li>Porque quiero verte feliz, y quiero ser parte de esa felicidad.</li>
+    <li>Porque tus palabras son el mejor lugar del mundo.</li>
+    <li>Porque me encantás, en cada gesto, cada palabra.</li>
+    <li>Porque cuando te veo (aunque sea en una foto), siento que todo tiene sentido.</li>
+    <li>Porque me hacés sentir querido.</li>
+    <li>Porque me hacés sentir afortunado todos los días.</li>
+    <li>Porque te quiero dar como puerta de auto viejo.</li>
+    <li>Porque me gustás, y no solo físicamente, sino por quién sos.</li>
+    <li>Porque además de mi todo, quiero que seas mi mejor amiga.</li>
+    <li>Porque te quiero más de lo que me gustaría admitir.</li>
+    <li>Porque siempre estás atenta a los detalles, y eso me mata de ternura.</li>
+    <li>Porque quiero pasar tiempo con vos, sin importar haciendo qué, sin importar el dia.</li>
+    <li>Porque sos hermosa sin siquiera intentarlo.</li>
+    <li>Porque sos una persona increíble en todos los sentidos.</li>
+    <li>Porque sos única, y lo sé desde el primer momento.</li>
+    <li>Porque sos sincera, y eso vale más que cualquier otra cosa.</li>
+    <li>Porque sé que puedo contar con vos.</li>
+    <li>Porque me hacés querer ser alguien mejor.</li>
+    <li>Porque me aguantás incluso cuando soy insoportable y no me hagas caso.</li>
+    <li>Porque sos fuerte y genial.</li>
+    <li>Porque tu forma de pensar me fascina.</li>
+    <li>Porque sos la primera persona que me hace sentir realmente correspondido.</li>
+    <li>Porque cuando hablo con vos, el resto del mundo deja de importar.</li>
+    <li>Porque tus ojos tienen algo que me deja sin palabras.</li>
+    <li>Porque me hacés reír incluso en mis peores días.</li>
+    <li>Porque quiero probar una de esas cosas ricas que cocinás.</li>
+    <li>Porque sos distinta a todas.</li>
+    <li>Porque tu voz me suena a felicidad.</li>
+    <li>Porque me hacés sentir en paz, incluso cuando todo está hecho un caos.</li>
+    <li>Porque me encanta tu forma de hablar, de reír, de ser.</li>
+    <li>Porque sos hermosa hasta cuando te pones shy.</li>
+    <li>Porque quiero que confíes en mí tanto como yo confío en vos.</li>
+    <li>Porque quiero ser tu lugar seguro, el que nunca te falla.</li>
+    <li>Porque me hacés sentir importante.</li>
+    <li>Porque me hacés sonreír sin esfuerzo.</li>
+    <li>Porque sos mi calma en medio de todo.</li>
+    <li>Porque sos más de lo que alguna vez soñé.</li>
+    <li>Porque tu forma de ser me encanta.</li>
+    <li>Porque me encantan tus boludeces.</li>
+    <li>Porque me hacés sentir que todo vale la pena.</li>
+    <li>Porque sos dulce y auténtica a la vez.</li>
+    <li>Porque me hacés olvidar el tiempo.</li>
+    <li>Porque me gusta cómo estas para mi.</li>
+    <li>Porque me hacés sentir en las nubes.</li>
+    <li>Porque simplemente… te quiero, sin vueltas, sin condiciones.</li>
+  </ol>
+
+  <script>
+    function mostrarLista() {
+      const lista = document.getElementById('razones');
+      const musica = document.getElementById('musica');
+      lista.style.display = 'block';
+      musica.play();
+    }
+  </script>
+</body>
+</html>
+
+
